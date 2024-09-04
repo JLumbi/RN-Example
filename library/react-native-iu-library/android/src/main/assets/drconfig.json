@@ -1,0 +1,18 @@
+{
+  "organizationType": "static",
+  "organization": "CLARO BR",
+  "organizationId": "5a86a64052faff0001a6b089",
+  "timerTriggerConfig": 86400,
+  "baseOrganization": "",
+  "orgSelection": "",
+  "version": 3,
+  "isSdkBuild": true,
+  "fcmProjectId": "iu-android-sdk",
+  "fcmSenderId": "117519441630",
+  "fbRemoteProjectId ": "iu-android-sdk",
+  "fbRemoteAPIKey": "AIzaSyAuiuXvkX3hbXTZv1q1KUh3PbvvTT2tb04",
+  "fbRemoteAppId": "1:117519441630:android:7962cb3d01ff3cc2",
+  "fieldCollector": {
+    "canCollectAll": true
+  }
+}
