@@ -20,7 +20,10 @@ class NotificationService: UNNotificationServiceExtension {
         if let bestAttemptContent = bestAttemptContent {
             // Modify the notification content here...
             bestAttemptContent.title = "\(bestAttemptContent.title) [modified]"
-            DigitalReef.includeMediaAttachment(request: request, mutableContent: bestAttemptContent, contentHandler: contentHandler)
+            let drAd: Bool = request.content.userInfo["adAvailable"] as? Bool ?? false
+            if drAd {
+                DigitalReef.includeMediaAttachment(request: request, mutableContent: bestAttemptContent!, contentHandler: contentHandler)
+            }
         }
     }
     
